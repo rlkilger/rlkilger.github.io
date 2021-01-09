@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-  max-width: 900px;
+  width: 90%;
+  max-width: 800px;
   margin: 40px auto;
   font-family: Montserrat, Helvetica, sans-serif;
 }
@@ -11,16 +12,16 @@ footer {
   background-color: #26547C;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 18px;
   border-radius: 5px;
 }
 
 img {
   float: right;
-  margin: -125px 20px 0 0;
+  margin-right: 15px;
   border-radius: 2px;
   box-shadow: 8px 8px 20px black;
-  width: 200px;
+  width: 180px;
 }
 
 main {
@@ -28,12 +29,14 @@ main {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 45px;
   padding-right: 200px;
 }
 
 h2 {
+  font-size: 20px;
   border-bottom: 1px solid;
+  padding-bottom: 5px;
 }
 
 .main-list {
@@ -41,16 +44,31 @@ h2 {
   line-height: 24px;
 }
 
-main a {
+.main-list a {
   color: #26547C;
+}
+
+.main-list a:hover {
+  color: #748799;
+}
+
+.main-list a + a {
+  border-left: 1.8px solid #26547C;
+}
+
+.main-list a {
+  padding: 0 9px;
+}
+
+footer {
+  font-size: 15px;
+  padding-bottom: 35px;
 }
 
 .footer-list {
   display: flex;
   justify-content: center;
   list-style: none;
-  font-size: 16px;
-  margin: 5px;
 }
 
 footer li + li {
@@ -65,10 +83,6 @@ footer a {
   color: white;
 }
 
-a:hover {
-  color: gray;
-}
-
-.dateDiv {
-  margin: 5px;
+footer a:hover {
+  color: #D5DBE0;
 }
