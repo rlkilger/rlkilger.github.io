@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-  width: 90%;
+  width: 95%;
   max-width: 800px;
-  margin: 50px auto;
+  margin: 40px auto;
   font-family: Montserrat, Helvetica, sans-serif;
   font-size: 15px;
 }
@@ -85,15 +85,17 @@ footer a:hover {
   padding-bottom: 15px;
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 500px) {
   h1 {
     font-size: 30px;
     padding-right: 0;
   }
+  
   img {
     width: 120px;
     margin-right: 0;
   }
+
   .main-list {
     padding-left: 0;
   }
@@ -103,10 +105,9 @@ footer a:hover {
   img {
     float: none;
   }
+
   h1 {
     margin-bottom: 0;
   }
-  footer li + li {
-    border-left: none;
-  }
+
 }
