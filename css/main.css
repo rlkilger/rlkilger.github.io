@@ -34,7 +34,8 @@ h1 {
   padding-right: 200px;
 }
 
-h3 {
+h2 {
+  font-size: 18px;
   border-bottom: 1px solid;
   padding-bottom: 5px;
 }
@@ -90,7 +91,7 @@ footer a:hover {
     font-size: 30px;
     padding-right: 0;
   }
-  
+
   img {
     width: 120px;
     margin-right: 0;
