@@ -1,0 +1,202 @@
+body {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#pancake-banner {
+  text-align: center;
+  background-color: #F8B62D;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+header,
+footer,
+nav {
+  background-color: #26547C;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px 15px 0 0;
+}
+
+header img {
+  max-width: 80px;
+  margin-right: -6px;
+}
+
+.headings {
+	display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.motto {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.menu-button {
+  font-size: 17px;
+  text-align: center;
+  padding: 15px;
+}
+
+nav ul {
+  margin-top: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 15px;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav a:hover {
+  color: #F8B62D;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  width: 95%;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.hero-img {
+  max-width: 800px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.summary-bg {
+  width: 100%;
+  background-color: #EBEBEB;
+  margin: 20px 0;
+}
+
+.weather-summary {
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 30px;
+}
+
+.weather-heading {
+  margin: 0;
+}
+
+.current-temp {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-container p {
+  margin: 0 0 0 50px;
+}
+
+h2 {
+  color: #BE2F29;
+  padding: 15px 0 10px;
+  border-bottom: 1px solid;
+  max-width: 300px;
+  font-size: 28px;
+  margin: 30px 0;
+}
+
+h3 {
+  color: #BE2F29;
+  font-size: 24px;
+  text-align: center;
+}
+
+.forecast-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.forecast {
+  text-align: center;
+}
+
+.forecast-img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 2px;
+  background-color: #EBEBEB;
+}
+
+.rodeo-heading {
+  margin-bottom: 40px;
+}
+
+.rodeo-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.rodeo-paragraph {
+  line-height: 24px;
+  padding-top: 10px;
+}
+
+footer {
+  padding: 20px;
+  max-width: 900px;
+  margin: 40px auto 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+footer li + li {
+  border-left: 1.8px solid;
+}
+
+footer li {
+  padding: 0 6px;
+  list-style: none;
+}
