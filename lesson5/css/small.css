@@ -196,19 +196,44 @@ footer {
   text-align: center;
 }
 
-footer ul {
+iframe {
+  max-width: 100%
+}
+
+.contact-div ul {
+  padding-left: 0;
+}
+
+.contact-div li {
+  list-style: none;
+  line-height: 25px;
+  text-align: center;
+}
+
+.contact-info {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 8px;
+}
+
+.social-icon {
+  width: 25px;
+  padding: 5px;
+}
+
+.footer-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-left: 0;
-  margin-top: 0;
+  padding: 10px 0 0 0;
+  margin: 5px 0;
 }
 
-footer li + li {
+.footer-list li + li {
   border-left: 1.8px solid;
 }
 
-footer li {
+.footer-list li {
   padding: 0 6px;
   list-style: none;
 }

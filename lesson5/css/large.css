@@ -77,4 +77,20 @@
   footer {
     font-size: 15px;
   }
+
+  .map-contact-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px 0;
+  }
+
+  .contact-div {
+    text-align: left;
+  }
+
+  .contact-div li {
+    text-align: left;
+  }
+
 }
