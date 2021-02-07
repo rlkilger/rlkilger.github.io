@@ -200,13 +200,17 @@ iframe {
   max-width: 100%
 }
 
+.contact-div {
+  padding: 10px 0;
+}
+
 .contact-div ul {
   padding-left: 0;
 }
 
 .contact-div li {
   list-style: none;
-  line-height: 25px;
+  line-height: 22px;
   text-align: center;
 }
 
