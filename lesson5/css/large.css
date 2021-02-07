@@ -9,7 +9,7 @@
   }
   
   header img {
-    width: 115px;
+    max-width: 110px;
   }
 
   h1 {
