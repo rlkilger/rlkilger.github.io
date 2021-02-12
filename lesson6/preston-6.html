@@ -6,7 +6,6 @@
     <meta name="author" content="Rebecca Kilger">
     <meta name="description" content="Rebecca Kilger WDD 230 - Preston Rain ir Shine - Preston Town Page">
     <link rel="shortcut icon" href="../favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -16,7 +15,7 @@
   <body id="body">
       <div id="pancake-banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
     <header>
-      <img src="../lesson6/images/iconfinder_weather-07_1530387.svg" alt="sun logo photo">
+      <img src="images/iconfinder_weather-07_1530387.svg" alt="sun logo photo">
       <div class="headings">
         <h1>PRESTON RAIN OR SHINE</h1>
         <div class="motto">Come for the weather, stay for the fun</div>
@@ -36,7 +35,12 @@
     <main>
       <h2>Preston, Idaho</h2>
       <section class="hero-container">
-        <img class="hero-img" src="images/lesson6-image.webp" alt="Idaho state photo">
+        <picture class="hero-img">
+          <source media="(max-width: 450px)" srcset="images/lesson6-image-450.webp">
+          <source media="(min-width: 451px) and (max-width: 600px)" srcset="images/lesson6-image-600.webp">
+          <source media="(min-width: 601px)" srcset="images/lesson6-image-800.webp">
+          <img src="images/lesson6-image-800.webp" alt="Lesson 6 photo">
+        </picture>
         <div class="summary-bg">
           <div class="weather-summary">
             <h3 class="weather-heading">Today</h3>
@@ -96,7 +100,7 @@
     </main>
     <footer>
       <div class="map-contact-div">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628265225!2d-111.91534447704126!3d42.09980531188208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612676582345!5m2!1sen!2sus" width="400" height="250" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628265225!2d-111.91534447704126!3d42.09980531188208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612676582345!5m2!1sen!2sus" width="350" height="220" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <div class="contact-div">
           <ul class="contact-list">
             <li class="contact-info">Contact Information:</li>
@@ -116,8 +120,10 @@
         <li id="currentDate"></li>
       </ul>
     </footer>
-    <script src="../lesson6/js/javascript.js"></script>
+    <script src="js/javascript.js"></script>
     <script src="js/windChill.js"></script>
     <script src="js/pancakeBanner.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webFont.js"></script>
   </body>
 </html>

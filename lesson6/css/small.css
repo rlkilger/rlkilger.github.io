@@ -6,7 +6,7 @@ body {
 #pancake-banner {
   text-align: center;
   background-color: #F8B62D;
-  padding: 20px 0;
+  padding: 20px 10px;
   font-weight: bold;
 }
 
@@ -88,10 +88,8 @@ main {
   margin: 0px auto;
 }
 
-.hero-img {
-  max-width: 800px;
-  width: 100%;
-  border-radius: 2px;
+.hero-img img {
+  max-width: 100%;
 }
 
 .summary-bg {
