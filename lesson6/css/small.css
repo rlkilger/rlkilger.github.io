@@ -88,6 +88,10 @@ main {
   margin: 0px auto;
 }
 
+.hero-container {
+  margin-top: 40px;
+}
+
 .hero-img img {
   max-width: 100%;
 }
@@ -95,7 +99,7 @@ main {
 .summary-bg {
   width: 100%;
   background-color: #EBEBEB;
-  margin: 20px 0;
+  margin-top: 40px;
 }
 
 .weather-summary {
@@ -172,7 +176,7 @@ h3 {
 }
 
 .container {
-  margin: 30px 0;
+  margin: 40px 0;
   padding: 20px;
   border-radius: 2px;
   background-color: #EBEBEB;
@@ -194,7 +198,6 @@ h3 {
 }
 
 footer {
-  margin: 40px auto 0;
   font-size: 14px;
   text-align: center;
 }
