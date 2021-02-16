@@ -67,7 +67,7 @@ nav a {
   text-decoration: none;
   color: white;
   display: block;
-  padding: 15px;
+  padding: 15px 20px;
 }
 
 .active {
@@ -88,6 +88,15 @@ main {
   margin: 0px auto;
 }
 
+h2 {
+  color: #BE2F29;
+  padding: 15px 0;
+  border-bottom: 1px solid;
+  max-width: 300px;
+  font-size: 28px;
+  margin: 30px 0;
+}
+
 .hero-container {
   margin-top: 40px;
 }
@@ -97,7 +106,6 @@ main {
 }
 
 .summary-bg {
-  width: 100%;
   background-color: #EBEBEB;
   margin-top: 40px;
 }
@@ -105,7 +113,7 @@ main {
 .weather-summary {
   margin: 0 auto;
   max-width: 300px;
-  padding: 30px;
+  padding: 40px 20px 50px;
 }
 
 .weather-heading {
@@ -145,15 +153,6 @@ main {
   margin-bottom: 0;
 }
 
-h2 {
-  color: #BE2F29;
-  padding: 15px 0 10px;
-  border-bottom: 1px solid;
-  max-width: 300px;
-  font-size: 28px;
-  margin: 30px 0;
-}
-
 h3 {
   color: #BE2F29;
   font-size: 24px;
@@ -163,6 +162,7 @@ h3 {
 .forecast-container {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 10px;
 }
 
 .forecast {
@@ -178,7 +178,6 @@ h3 {
 .container {
   margin: 40px 0;
   padding: 20px;
-  border-radius: 2px;
   background-color: #EBEBEB;
 }
 
