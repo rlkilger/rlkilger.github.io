@@ -1,38 +1,15 @@
-const images = document.querySelectorAll("img[data-src]");
-
-
-const imgOptions = {
-  threshold: 0,
-  rootMargin: "0px 0px -50px 0px"
-};
-
-
-const loadImages = (image) => {
-  image.setAttribute("src", image.getAttribute("data-src"));
-  image.onload = () => {image.removeAttribute("data-src");};
-};
-
-
-if ('IntersectionObserver' in window) {
-  const imgObserver = new IntersectionObserver((items, observer) => {
-    items.forEach((item) => {
-      if (!item.isIntersecting) {
-        return;
-      } else {
-        loadImages(item.target);
-        imgObserver.unobserve(item.target);
-      }
-    });
-  }, imgOptions);
-
-  images.forEach((img) => {
-    imgObserver.observe(img);
-  });
-} else {  
-  images.forEach((img) => {
-    loadImages(img);
-  });
+function toggleMenu() {
+  document.getElementById("navigation").classList.toggle("hide");
 }
 
+function lastModified() {
+  let dayOfWeek = new Date().toLocaleString('default', {weekday: 'long'});
+  let day = new Date().getDate();
+  let month = new Date().toLocaleString('default', {month: 'long'});
+  let year = new Date().getFullYear();
+  document.getElementById("currentDate").innerHTML = `${dayOfWeek}, ${day} ${month} ${year}`;
+}
+
+lastModified();
 
 

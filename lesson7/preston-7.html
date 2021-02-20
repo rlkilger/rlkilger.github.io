@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rebecca Kilger">
+    <meta name="description" content="Rebecca Kilger WDD 230 - Preston Rain ir Shine - Preston Town Page">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Rebecca Kilger WDD 230 - Preston Rain or Shine - Preston Town Page</title>  
+  </head>
+  <body id="body">
+      <div id="pancake-banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+      <img src="images/iconfinder_weather-07_1530387.svg" alt="sun logo photo">
+      <div class="headings">
+        <h1>PRESTON RAIN OR SHINE</h1>
+        <div class="motto">Come for the weather, stay for the fun</div>
+      </div>
+    </header>
+      <nav>
+        <a class="menu-button" href="#" onclick="toggleMenu()">&#9776; Menu</a>
+        <ul id="navigation" class="hide">
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="preston-7.html">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="#">Storm Center</a></li>
+          <li><a href="galler-7.html">Gallery</a></li>
+        </ul>
+      </nav>
+    <main>
+      <h2>Preston, Idaho</h2>
+      <section class="hero-container">
+        <picture class="hero-img">
+          <source media="(max-width: 500px)" srcset="images/lesson6-image-500.webp">
+          <source media="(min-width: 501px) and (max-width: 710px)" srcset="images/lesson6-image-710.webp">
+          <source media="(min-width: 711px)" srcset="images/banner-img.webp">
+          <img src="images/lesson6-image-800.webp" alt="Lesson 6 photo">
+        </picture>
+        <div class="summary-bg">
+          <div class="weather-summary">
+            <h3 class="weather-heading">Today</h3>
+            <div class="current-temp-div">
+              <img class="current-temp-img" src="images/iconfinder_weather-24_1530371.svg" alt="snowy photo">
+              <p class="current-temp"><span id="temp">30</span>&#176;</p>
+            </div>
+            <div class="weather-container">
+              <p>Hi / Low:</p>
+              <p class="temps">32&#176; / 25&#176;</p>
+            </div>
+            <div class="weather-container">
+              <p>Wind:</p>
+              <p class="temps">NW <span id="windSpeed">10</span>mph</p>
+            </div>
+            <div class="weather-container">
+              <p>Wind Chill:</p>
+              <p class="temps" id="windChill"></p>
+            </div>
+            <div class="weather-container">
+              <p>Humidity:</p>
+              <p class="temps">70%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <h3>5-day Forecast</h3>
+        <div class="forecast-container">
+          <div class="forecast">
+            <img class="forecast-img" src="images/iconfinder_weather-22_1530369.svg" alt="cloudy photo">
+            <p>41&#176;<br>27&#176;</p>
+          </div>
+          <div class="forecast">
+            <img class="forecast-img" src="images/iconfinder_weather-01_1530392.svg" alt="sunny photo">
+            <p>45&#176;<br>25&#176;</p>
+          </div>
+          <div class="forecast">
+            <img class="forecast-img" src="images/iconfinder_weather-02_1530391.svg" alt="partly cloudy photo">
+            <p>43&#176;<br>27&#176;</p>
+          </div>
+          <div class="forecast">
+            <img class="forecast-img" src="images/iconfinder_weather-22_1530369.svg" alt="cloudy photo">
+            <p>39&#176;<br>21&#176;</p>
+          </div>
+          <div class="forecast">
+            <img class="forecast-img" src="images/iconfinder_weather-32_1530362.svg" alt="rainy photo">
+            <p>37&#176;<br>19&#176;</p>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <h3 class="rodeo-heading">That Famous Preston Night Rodeo</h3>
+        <img class="rodeo-img" src="images/rodeo-image.webp" alt="american flag rodeo photo">
+        <p class="rodeo-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper. Morbi tristique senectus et netus. Id consectetur purus ut faucibus. Ullamcorper a lacus vestibulum sed arcu non odio. Lorem mollis aliquam ut porttitor leo. Adipiscing commodo elit at imperdiet dui. Cras pulvinar mattis nunc sed blandit libero volutpat sed. Et malesuada fames ac turpis egestas. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Et netus et malesuada fames. Integer enim neque volutpat ac tincidunt vitae. Quam quisque id diam vel quam elementum pulvinar. Sed nisi lacus sed viverra. Molestie at elementum eu facilisis sed. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Aliquam vestibulum morbi blandit cursus risus at ultrices.</p>
+      </section>
+    </main>
+    <footer>
+      <div class="map-contact-div">
+        <img class="map" src="images/map.png" alt="Preston map photo">
+        <div class="contact-div">
+          <ul class="contact-list">
+            <li class="contact-info">Contact Information:</li>
+            <li>Preston Rain or Shine</li>
+            <li>1234 S State St, Preston, ID 83263</li>
+            <li>(208)555-1234</li>
+            <li>prestonrainorshine@gmail.com</li>
+          </ul>
+          <a href="https://www.facebook.com" target="_blank"><img class="social-icon" src="images/fb-icon.svg" alt="facebook link"></a>
+          <a href="https://www.instagram.com" target="_blank"><img class="social-icon" src="images/ig-icon.svg" alt="instagram link"></a>
+          <a href="https://www.twitter.com" target="_blank"><img class="social-icon" src="images/tw-icon.svg" alt="twitter link"/></a>
+        </div>
+      </div>
+      <ul class="footer-list">
+        <li>&copy; Preston Rain or Shine</li>
+        <li>Rebecca Kilger</li>
+        <li id="currentDate"></li>
+      </ul>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <script src="js/windChill.js"></script>
+    <script src="js/pancakeBanner.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webFont.js"></script>
+  </body>
+</html>
