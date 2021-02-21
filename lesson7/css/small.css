@@ -201,6 +201,10 @@ figure {
   margin: 20px 0;
 }
 
+figcaption {
+  padding-top: 7px;
+}
+
 footer {
   font-size: 14px;
   text-align: center;
