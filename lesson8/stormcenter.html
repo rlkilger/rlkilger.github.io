@@ -39,15 +39,15 @@
           <fieldset>
             <legend>Your Information</legend>
             <div class="storm-div">
-              <label class="label-top">Full name: (required)<input type="text" name="full_name" pattern="[A-Z a-z]{5,}" required></label>
+              <label class="label-top">Full name: <span class="star">*</span><input type="text" name="full_name" pattern="[A-Z a-z\-]{5,}" required></label>
               <label class="label-top">Email address:<input type="email" name="email" placeholder="prestonrainorshine@gmail.com"></label>
-              <label class="label-top">*Phone number:<input type="tel" name="phone" required></label>
+              <label class="label-top">Phone number: <span class="star">*</span><input type="tel" name="phone" required></label>
             </div>
           </fieldset>
           <fieldset>
             <legend>Storm Information</legend>
             <div class="storm-div">
-              <label class="label-top">*Zip code:<input type="number" name="zip_code" required></label>
+              <label class="label-top">Zip code: <span class="star">*</span><input type="number" name="zip_code" required></label>
               <label class="label-top">Storm date:<input type="date" name="storm_date"></label>
               <label class="label-top">Storm type:<input list="storm-types" name="storm_type"></label>
               <datalist id="storm-types">
@@ -57,7 +57,21 @@
                 <option value="Thunderstorm">
                 <option value="Tornado">
               </datalist>
-              <label class="label-top">Storm severity:<input type="" name="storm_severity"></label>
+              <label class="severity">Storm severity: &nbsp;&nbsp;&nbsp;<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                      oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span>
+              <datalist id="tickmarks">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+              </datalist></label><br>
               <label  class="label-top">Storm region:
                 <select name="storm_region">
                   <option value="">Select Region</option>
@@ -73,13 +87,14 @@
             </div>
           </fieldset>
           <fieldset>
+            <legend>Additional Information</legend>
             <div class="storm-div">
-              <label>Additional information or comments:<textarea type="textarea" name="add_info"></textarea></label>
+              <label>Comments:<textarea name="add_info"></textarea></label>
             </div>
           </fieldset>
-          <span class="button">
-            <button type="submit">Submit</button>
-          </span>
+          <div class="button">
+            <button type="submit">Report storm</button>
+          </div>
         </form>
       </section>
     </main>

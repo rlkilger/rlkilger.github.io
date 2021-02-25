@@ -220,6 +220,10 @@ legend {
   padding: 0 10px;
 }
 
+.star {
+  color: #BE2F29;
+}
+
 .label-top input, select, textarea {
   display: block;
   padding: 10px;
@@ -228,10 +232,18 @@ legend {
   margin: 10px 0 30px;
 }
 
+.label-top {
+  -webkit-appearance: none;
+}
+
 .label-top input {
   height: 25px;
 }
 
+.severity {
+	display: flex;
+	align-items: center;
+}
 
 .danger-div {
   margin-top: 20px;
@@ -247,6 +259,21 @@ legend {
   margin-right: 5px;
   height: 20px;
   width: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #26547C;
+  color: #ebebeb;
+}
+
+button:hover {
+  background-color: #18334c;
 }
 
 footer {
@@ -293,7 +320,7 @@ footer {
   justify-content: center;
   padding: 20px 0;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #18334c;
 }
 
 .footer-list li + li {
