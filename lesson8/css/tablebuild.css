@@ -9,22 +9,27 @@ table {
   max-width: 100%
 }
 
-td, th {
-  border: 1px solid rgb(190,190,190);
-  padding: 10px;
+thead th {
+  font-size: 32px;
+
 }
 
 thead th, tfoot td {
   background-color: #7fb9c2;
 }
 
-thead th {
-  font-size: 32px;
+tbody th {
+  font-size: 20px;
 }
 
 tbody th, .goal {
   color: #FFFFFF;
   background-color: #628ca6;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px;
 }
 
 tr {
