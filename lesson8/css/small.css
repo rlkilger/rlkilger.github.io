@@ -207,7 +207,7 @@ figcaption {
 
 .storm-div {
   max-width: 650px;
-  margin: 50px auto;
+  margin: 40px auto;
 }
 
 fieldset {
@@ -224,16 +224,12 @@ legend {
   color: #BE2F29;
 }
 
-.label-top input, select, textarea {
+.label-top input, .label-top select, textarea {
   display: block;
   padding: 10px;
   max-width: 400px;
   width: 90%;
   margin: 10px 0 30px;
-}
-
-.label-top {
-  -webkit-appearance: none;
 }
 
 .label-top input {
@@ -243,10 +239,20 @@ legend {
 .severity {
 	display: flex;
 	align-items: center;
+  justify-content: space-between;
+}
+
+.severity-div {
+  max-width: 300px;
+  margin: 0 0 30px;
+}
+
+#rating {
+  margin-left: 10px;
 }
 
 .danger-div {
-  margin-top: 20px;
+  margin: 30px 0 10px;
 }
 
 .radio-label {
@@ -259,6 +265,10 @@ legend {
   margin-right: 5px;
   height: 20px;
   width: 20px;
+}
+
+textarea {
+  height: 100px;
 }
 
 .button {
