@@ -286,6 +286,12 @@ button:hover {
   background-color: #18334c;
 }
 
+.thanks {
+  padding: 20px;
+  text-align: center;
+  line-height: 22px;
+}
+
 footer {
   font-size: 14px;
   text-align: center;

@@ -41,8 +41,8 @@
             <div class="storm-div">
               <label class="label-top">Full name: <span class="star">*</span><input type="text" name="full_name" pattern="[A-Z a-z\-]{5,}" required></label>
               <label class="label-top">Email address:<input type="email" name="email" placeholder="prestonrainorshine@gmail.com"></label>
-              <label class="label-top">Phone number: <span class="star">*</span><input type="tel" name="phone" required></label>
-              <label class="label-top">Zip code: <span class="star">*</span><input type="number" name="zip_code" required></label>
+              <label class="label-top">Phone number: <span class="star">*</span><input type="tel" name="phone" pattern="[0-9]{10}" required></label>
+              <label class="label-top">Zip code: <span class="star">*</span><input type="text" name="zip_code" pattern="[0-9]{5}" required></label>
             </div>
           </fieldset>
           <fieldset>
