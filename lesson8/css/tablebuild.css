@@ -2,7 +2,7 @@ table {
   font-family: "Ubuntu", sans-serif;
   border-collapse: collapse;
   border: 1px solid rgb(200,200,200);
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   margin: 40px auto;
   box-shadow: 10px 10px 15px #628ca6;
@@ -10,7 +10,7 @@ table {
 }
 
 thead th {
-  font-size: 32px;
+  font-size: 38px;
 
 }
 
@@ -19,7 +19,7 @@ thead th, tfoot td {
 }
 
 tbody th {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 tbody th, .goal {
@@ -28,7 +28,7 @@ tbody th, .goal {
 }
 
 td, th {
-  border: 1px solid rgb(190,190,190);
+  border: 2px solid rgb(190,190,190);
   padding: 10px;
 }
 
@@ -41,5 +41,5 @@ tr:nth-child(even) {
 }
 
 tfoot tr {
-  font-size: 15px;
+  font-size: 16px;
 }
