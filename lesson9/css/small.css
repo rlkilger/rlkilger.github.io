@@ -336,6 +336,10 @@ button:hover {
   max-width: 90%;
 }
 
+.wireframes img {
+  display: block;
+}
+
 footer {
   font-size: 14px;
   text-align: center;
