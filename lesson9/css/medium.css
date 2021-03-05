@@ -75,6 +75,17 @@
     margin: 0 auto 30px;
   }
 
+  .main-home {
+    width: 95%;
+  }
+
+  .main-home picture {
+    max-width: 600px;
+    margin: 40px auto 0;
+    display: block;
+
+  }
+
   .sections-div section {
     display: flex;
     justify-content: space-between;
