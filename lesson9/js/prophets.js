@@ -7,7 +7,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const prophets = jsonObject["prophets"];
     
-    const cards = document.querySelector(".cards")
+    const cards = document.querySelector(".cards");
     
     prophets.forEach(prophet => {
       let card = document.createElement("section");

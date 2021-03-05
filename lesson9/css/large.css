@@ -1,4 +1,12 @@
 @media only screen and (min-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .motto {
+    font-size: 19px;
+  }
+
   .gallery-main {
     max-width: 850px;
   }
@@ -15,4 +23,23 @@
   figure:hover {
     box-shadow: 2px 2px 6px grey;
   }
+
+  .home-img img {
+    display: block;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .sections-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sections-div section {
+    display: block;
+    width: 280px;
+    margin: 5px;
+    padding: 0 5px 20px;
+  }
+
 }

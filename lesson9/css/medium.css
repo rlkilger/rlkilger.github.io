@@ -68,6 +68,30 @@
     width: 50%;
   }
 
+  .gallery-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    margin: 0 auto 30px;
+  }
+
+  .sections-div section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    padding: 0;
+  }
+
+  .sections-div section:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+  .info-div {
+    margin: auto;
+    padding: 20px;
+  }
+
   footer {
     font-size: inherit;
   }
@@ -87,12 +111,5 @@
 
   .contact-div li {
     text-align: left;
-  }
-
-  .gallery-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 600px;
-    margin: 0 auto 30px;
   }
 }

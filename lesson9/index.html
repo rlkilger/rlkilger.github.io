@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Rebecca Kilger">
-    <meta name="description" content="Rebecca Kilger WDD 230 - Preston Rain or Shine - Storm Center Thank You Page">
+    <meta name="description" content="Rebecca Kilger WDD 230 - Preston Rain or Shine - Home Page">
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <title>Rebecca Kilger WDD 230 - Preston Rain or Shine - Storm Center - Thank you</title>  
+    <title>Rebecca Kilger WDD 230 - Preston Rain or Shine - Home Page</title>  
   </head>
   <body id="body">
     <header>
@@ -23,19 +23,22 @@
       <nav>
         <a class="menu-button" href="#" onclick="toggleMenu()">&#9776; Menu</a>
         <ul id="navigation" class="hide">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="preston-8.html">Preston</a></li>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="preston-9.html">Preston</a></li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Haven</a></li>
-          <li class="active"><a href="stormcenter.html">Storm Center</a></li>
-          <li><a href="gallery-8.html">Gallery</a></li>
+          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="gallery-9.html">Gallery</a></li>
         </ul>
       </nav>
     <main>
-      <section class="container">
-        <h3>Storm reported.</h3>
-        <p class="thanks">Thank you for reporting this storm. We appreciate your help in fulfilling our goal to provide reliable, up-to-date storm reports to the people of Idaho.</p>
-      </section>
+      <picture class="home-img">
+        <source media="(max-width: 500px)" srcset="images/map500.webp">
+        <source media="(min-width: 501px) and (max-width: 710px)" srcset="images/map710.webp">
+        <source media="(min-width: 711px)" srcset="images/map900.webp">
+        <img src="images/map900.webp" alt="Idaho map photo">
+      </picture>
+      <div class="sections-div"></div>
     </main>
     <footer>
       <div class="map-contact-div">
@@ -62,5 +65,6 @@
     <script src="js/javascript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webFont.js"></script>
+    <script src="js/towndata.js"></script>
   </body>
 </html>

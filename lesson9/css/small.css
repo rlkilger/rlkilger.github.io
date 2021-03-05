@@ -84,7 +84,7 @@ nav a:hover {
 
 main {
   width: 95%;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0px auto;
 }
 
@@ -290,6 +290,48 @@ button:hover {
   padding: 20px;
   text-align: center;
   line-height: 22px;
+}
+
+.home-img img {
+  display: none;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.sections-div {
+  margin: 30px 0;
+}
+
+.sections-div section {
+  margin: 30px auto;
+  padding: 20px 5px 15px;
+  width: 280px;
+  text-align: center;
+  background-color: #EBEBEB;
+}
+
+.info-div {
+  padding: 0 15px;
+}
+
+.sections-div h2 {
+  border-bottom: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.town-motto {
+  font-size: 13px;
+  margin: 5px 0 20px;
+  min-height: 32px;
+}
+
+.info-div {
+  margin-bottom: 30px;
+}
+
+.sections-div img {
+  max-width: 90%;
 }
 
 footer {
