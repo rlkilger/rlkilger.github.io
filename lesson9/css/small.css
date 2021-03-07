@@ -196,6 +196,15 @@ h3 {
   padding-top: 10px;
 }
 
+.small-home-paragraph {
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.home-paragraph {
+  display: none;
+}
+
 figure {
   text-align: center;
   margin: 20px 0;
@@ -336,8 +345,13 @@ button:hover {
   max-width: 90%;
 }
 
-.rodeo-heading {
-  margin-bottom: 40px;
+.home-heading a {
+  color: #BE2F29;
+  text-decoration: none;
+}
+
+.home-heading a:hover {
+  text-decoration: underline;
 }
 
 .mask-img {
@@ -346,7 +360,7 @@ button:hover {
   max-width: 100%;
 }
 
-.home-paragraph {
+.home-article {
   margin: 40px 0;
   padding: 20px;
   background-color: #EBEBEB;

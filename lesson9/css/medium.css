@@ -105,8 +105,16 @@
 
   .mask-img {
     float: left;
-    margin: 15px 15px 15px 0px;
+    margin: 15px 30px 15px 0px;
     width: 50%;
+  }
+
+  .small-home-paragraph {
+    display: none;
+  }
+  
+  .home-paragraph {
+    display: block;
   }
 
   footer {
