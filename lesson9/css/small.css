@@ -181,7 +181,7 @@ h3 {
   background-color: #EBEBEB;
 }
 
-.rodeo-heading {
+.article-heading {
   margin-bottom: 40px;
 }
 
@@ -191,7 +191,7 @@ h3 {
   max-width: 100%;
 }
 
-.rodeo-paragraph {
+.article-paragraph {
   line-height: 24px;
   padding-top: 10px;
 }
@@ -334,6 +334,22 @@ button:hover {
 
 .sections-div img {
   max-width: 90%;
+}
+
+.rodeo-heading {
+  margin-bottom: 40px;
+}
+
+.mask-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.home-paragraph {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #EBEBEB;
 }
 
 .wireframes img {

@@ -80,7 +80,7 @@
   }
 
   .main-home picture {
-    max-width: 600px;
+    max-width: 700px;
     margin: 40px auto 0;
     display: block;
 
@@ -101,6 +101,12 @@
   .info-div {
     margin: auto;
     padding: 20px;
+  }
+
+  .mask-img {
+    float: left;
+    margin: 15px 15px 15px 0px;
+    width: 50%;
   }
 
   footer {
