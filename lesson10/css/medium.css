@@ -1,0 +1,140 @@
+@media only screen and (min-width: 710px) {
+  body {
+    font-size: 16px;
+  }
+  
+  header {
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  
+  header img {
+    max-width: 110px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .motto {
+    font-size: 16px;
+  }
+  
+  .menu-button {
+    display: none;
+  }
+
+  .hide {
+    display: flex;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  .active a {
+    background-color: white;
+    color: #26547C;
+  }
+
+  .active a:hover {
+    color: #BE2F29;
+  }
+
+  .weather-heading {
+    color: black;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .hero-container {
+    position: relative;
+  }
+
+  .weather-summary {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #F8B62D;
+    color: black;
+    box-shadow: 3px 3px 10px black;
+    opacity: 0.9;
+    padding: 40px;
+  }
+
+  .rodeo-img {
+    float: right;
+    margin: 15px 0 15px 15px;
+    width: 50%;
+  }
+
+  .gallery-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    margin: 0 auto 30px;
+  }
+
+  .main-home {
+    width: 95%;
+  }
+
+  .main-home picture {
+    max-width: 700px;
+    margin: 40px auto 0;
+    display: block;
+
+  }
+
+  .sections-div section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    padding: 0;
+  }
+
+  .sections-div section:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+  .info-div {
+    margin: auto;
+    padding: 20px;
+  }
+
+  .mask-img {
+    float: left;
+    margin: 15px 30px 15px 0px;
+    width: 50%;
+  }
+
+  .small-home-paragraph {
+    display: none;
+  }
+  
+  .home-paragraph {
+    display: block;
+  }
+
+  footer {
+    font-size: inherit;
+  }
+
+  .map-contact-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .contact-div {
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .contact-div li {
+    text-align: left;
+  }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rebecca Kilger">
+    <meta name="description" content="Rebecca Kilger WDD 230 - Preston Rain or Shine - Storm Center">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Rebecca Kilger WDD 230 - Preston Rain or Shine - Storm Center</title>  
+  </head>
+  <body id="body">
+    <header>
+      <img src="images/iconfinder_weather-07_1530387.svg" alt="sun logo photo">
+      <div class="headings">
+        <h1>PRESTON RAIN OR SHINE</h1>
+        <div class="motto">Come for the weather, stay for the fun</div>
+      </div>
+    </header>
+      <nav>
+        <a class="menu-button" href="#" onclick="toggleMenu()">&#9776; Menu</a>
+        <ul id="navigation" class="hide">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="preston-10.html">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="gallery-10.html">Gallery</a></li>
+        </ul>
+      </nav>
+    <main>
+      <h2>Storm Center</h2>
+      <section class="container">
+        <h3>Report a Storm</h3>
+        <form method="get" action="thanks.html">
+          <fieldset>
+            <legend>Your Information</legend>
+            <div class="storm-div">
+              <label class="label-top">Full name: <span class="star">*</span><input type="text" name="full_name" pattern="[A-Z a-z\-]{5,}" required></label>
+              <label class="label-top">Email address:<input type="email" name="email" placeholder="prestonrainorshine@gmail.com"></label>
+              <label class="label-top">Phone number: <span class="star">*</span><input type="tel" name="phone" pattern="[0-9]{10}" required></label>
+              <label class="label-top">Zip code: <span class="star">*</span><input type="number" name="zip_code" required></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Storm Information</legend>
+            <div class="storm-div">
+              <label class="label-top">Storm date:<input type="date" name="storm_date"></label>
+              <label class="label-top">Storm type:<input list="storm-types" name="storm_type"></label>
+              <datalist id="storm-types">
+                <option value="Flash flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+              </datalist>
+              <div class="severity-div">
+              <label class="severity">Storm severity: &nbsp;&nbsp;&nbsp;<input type="range" value="5" min="1" max="10" step="1" list="tickmarks"
+                      oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="rating">5</span>
+              <datalist id="tickmarks">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+              </datalist></label></div>
+              <label  class="label-top">Storm region:
+                <select name="storm_region">
+                  <option value="" selected disabled>Select Region</option>
+                  <option value="preston">Preston</option>
+                  <option value="preston">Soda Springs</option>
+                  <option value="preston">Fish Haven</option>
+                </select>
+              </label>
+              <div class="danger-div">Are you in danger?</div>
+              <label class="radio-label"><input type="radio" name="danger" value="yes">Yes</label>
+              <label class="radio-label"><input type="radio" name="danger" value="no">No</label>
+              <label class="radio-label"><input type="radio" name="danger" value="maybe">Maybe</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Additional Information</legend>
+            <div class="storm-div">
+              <label>Please enter any additional comments below:<textarea name="add_info"></textarea></label>
+            </div>
+          </fieldset>
+          <div class="button">
+            <button type="submit">Report storm</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="map-contact-div">
+        <img class="map" src="images/map.png" alt="Preston map photo">
+        <div class="contact-div">
+          <ul class="contact-list">
+            <li class="contact-info">Contact Information:</li>
+            <li>Preston Rain or Shine</li>
+            <li>1234 S State St, Preston, ID 83263</li>
+            <li><a href="tel:2085551234">(208)555-1234</a></li>
+            <li><a href="mailto:prestonrainorshine@gmail.com">prestonrainorshine@gmail.com</a></li>
+          </ul>
+          <a href="https://www.facebook.com" target="_blank"><img class="social-icon" src="images/fb-icon.svg" alt="facebook link"></a>
+          <a href="https://www.instagram.com" target="_blank"><img class="social-icon" src="images/ig-icon.svg" alt="instagram link"></a>
+          <a href="https://www.twitter.com" target="_blank"><img class="social-icon" src="images/tw-icon.svg" alt="twitter link"/></a>
+        </div>
+      </div>
+      <ul class="footer-list">
+        <li>&copy; Preston Rain or Shine</li>
+        <li>Rebecca Kilger</li>
+        <li id="currentDate"></li>
+      </ul>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webFont.js"></script>
+  </body>
+</html>
