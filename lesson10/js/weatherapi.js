@@ -1,4 +1,4 @@
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=070bcaa0336766a1faa1048ce4e2a875";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=070bcaa0336766a1faa1048ce4e2a875";
 
 
 
