@@ -14,8 +14,7 @@ fetch(weatherapiURL)
     const low = Math.round(jsObject.main.temp_min);
     const windSpeed = Math.round(jsObject.wind.speed);
     const array = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"];
-    const value = Math.floor((jsObject.wind.deg % 360) / 22.5) + 1;
-    const windDir = array[value];
+    const windDir = array[Math.ceil((jsObject.wind.deg % 360) / 22.5)];
     const humidity = Math.round(jsObject.main.humidity);
     const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
