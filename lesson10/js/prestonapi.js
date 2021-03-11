@@ -13,13 +13,13 @@ fetch(weatherapiURL)
     const high = Math.round(jsObject.main.temp_max);
     const low = Math.round(jsObject.main.temp_min);
     const windSpeed = Math.round(jsObject.wind.speed);
-    const value = Math.floor((jsObject.wind.deg / 22.5) + 0.5);
     const array = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"];
-    const windDir = array[value % 16];
+    const value = Math.floor((jsObject.wind.deg % 360) / 22.5) + 1;
+    const windDir = array[value];
     const humidity = Math.round(jsObject.main.humidity);
     const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
-    
+
     let result = "N/A";
     if ((current < 50) && (windSpeed > 3)) {
       result = (Math.round(35.74 + 0.6215 * current - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * current * Math.pow(windSpeed, 0.16))) + "&#176;F";
