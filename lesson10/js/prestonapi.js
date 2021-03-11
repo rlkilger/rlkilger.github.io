@@ -19,7 +19,11 @@ fetch(weatherapiURL)
     const humidity = Math.round(jsObject.main.humidity);
     const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
-
+    
+    let result = "N/A";
+    if ((current < 50) && (windSpeed > 3)) {
+      result = (Math.round(35.74 + 0.6215 * current - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * current * Math.pow(windSpeed, 0.16))) + "&#176;F";
+    }
 
     document.getElementById("temp").textContent = current;
     document.getElementById("currently").textContent = desc;
@@ -30,6 +34,7 @@ fetch(weatherapiURL)
     document.getElementById("humidity").textContent = humidity;
     document.getElementById("temp-img").setAttribute('src', imagesrc);
     document.getElementById("temp-img").setAttribute('alt', desc);
+    document.getElementById("windChill").innerHTML = result;
   });
 
 
