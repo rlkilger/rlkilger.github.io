@@ -55,12 +55,17 @@
     position: absolute;
     top: 30px;
     left: 30px;
-    background-color: #F8B62D;
+    background-color: #FFFFFF;
     color: black;
     box-shadow: 3px 3px 10px black;
     opacity: 0.9;
-    padding: 40px;
+    padding: 25px 30px;
   }
+
+  .forecast {
+    font-size: 24px;
+  }
+
 
   .rodeo-img {
     float: right;

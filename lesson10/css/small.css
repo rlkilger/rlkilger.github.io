@@ -114,6 +114,7 @@ h2 {
   margin: 0 auto;
   max-width: 300px;
   padding: 40px 20px 50px;
+  font-weight: bold;
 }
 
 .weather-heading {
@@ -135,7 +136,7 @@ h2 {
 }
 
 .current-temp-img {
-  width: 128px;
+  width: 110px;
   max-width: 100%;
 }
 
@@ -167,12 +168,13 @@ h3 {
 
 .forecast {
   text-align: center;
+  font-size: 20px;
 }
 
 .forecast-img {
   display: block;
   max-width: 100%;
-  width: 128px;
+  width: 120px;
 }
 
 .container {
@@ -428,4 +430,8 @@ footer {
 
 footer a {
   color: #ffffff;
+}
+
+footer a:hover {
+  color: #F8B62D;
 }
