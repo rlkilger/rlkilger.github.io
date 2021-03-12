@@ -24,11 +24,12 @@
     display: none;
   }
 
-  .hide {
+  nav ul.hide {
     display: flex;
   }
 
   nav ul {
+    display: flex;
     justify-content: center;
   }
 
