@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rebecca Kilger">
+    <meta name="description" content="Rebecca Kilger WDD 230 - Preston Rain or Shine - Home Page">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Rebecca Kilger WDD 230 - Preston Rain or Shine - Home Page</title>  
+  </head>
+  <body id="body">
+    <header>
+      <img src="images/logo.svg" alt="sun logo photo">
+      <div class="headings">
+        <h1>PRESTON RAIN OR SHINE</h1>
+        <div class="motto">Come for the weather, stay for the fun</div>
+      </div>
+    </header>
+      <nav>
+        <a class="menu-button" href="#" onclick="toggleMenu()">&#9776; Menu</a>
+        <ul id="navigation" class="hide">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="preston.html">Preston</a></li>
+          <li><a href="sodasprings.html">Soda Springs</a></li>
+          <li><a href="fishhaven.html">Fish Haven</a></li>
+          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    <main class="main-home">
+      <picture class="home-img">
+        <source media="(max-width: 500px)" srcset="images/map500.webp">
+        <source media="(min-width: 501px) and (max-width: 710px)" srcset="images/map710.webp">
+        <source media="(min-width: 711px)" srcset="images/map900.webp">
+        <img src="images/map900.webp" alt="Idaho map photo">
+      </picture>
+      <div class="sections-div"></div>
+      <div class="home-article">
+        <h3 class="article-heading home-heading"><a href="#">EIPH will no longer issue mask mandates – advises public to take personal responsibility</a></h3>
+        <p class="small-home-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+        <img class="mask-img" src="images/mask-img.jpg" alt="Photo of a mask">
+        <p class="article-paragraph home-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Egestas tellus rutrum tellus pellentesque eu. Pellentesque habitant morbi tristique senectus et netus et. Sagittis id consectetur purus ut faucibus. Leo integer malesuada nunc vel risus commodo. Donec et odio pellentesque diam volutpat commodo sed. Consequat id porta nibh venenatis cras. Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. In hac habitasse platea dictumst. Mauris sit amet massa vitae tortor condimentum lacinia. Aliquam eleifend mi in nulla posuere. Lacus sed turpis tincidunt id aliquet. Magna fringilla urna porttitor rhoncus dolor purus. Porta non pulvinar neque laoreet suspendisse interdum consectetur. Integer feugiat scelerisque varius morbi enim nunc. Risus pretium quam vulputate dignissim. Libero justo laoreet sit amet cursus sit amet. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed.</p>
+      </div>
+    </main>
+    <footer>
+      <div class="map-contact-div">
+        <img class="map" src="images/map.jpg" alt="Preston map photo">
+        <div class="contact-div">
+          <ul class="contact-list">
+            <li class="contact-info">Contact Information:</li>
+            <li>Preston Rain or Shine</li>
+            <li>1234 S State St, Preston, ID 83263</li>
+            <li><a href="tel:2085551234">(208)555-1234</a></li>
+            <li><a href="mailto:prestonrainorshine@gmail.com">prestonrainorshine@gmail.com</a></li>
+          </ul>
+          <a href="https://www.facebook.com" target="_blank"><img class="social-icon" src="images/fb-icon.svg" alt="facebook link"></a>
+          <a href="https://www.instagram.com" target="_blank"><img class="social-icon" src="images/ig-icon.svg" alt="instagram link"></a>
+          <a href="https://www.twitter.com" target="_blank"><img class="social-icon" src="images/tw-icon.svg" alt="twitter link"/></a>
+        </div>
+      </div>
+      <ul class="footer-list">
+        <li>&copy; Preston Rain or Shine</li>
+        <li>Rebecca Kilger</li>
+        <li id="currentDate"></li>
+      </ul>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webFont.js"></script>
+    <script src="js/towndata.js"></script>
+  </body>
+</html>

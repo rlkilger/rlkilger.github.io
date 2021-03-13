@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Rebecca Kilger">
+    <meta name="description" content="Rebecca Kilger WDD 230 - Preston Rain or Shine - Gallery Page">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Rebecca Kilger WDD 230 - Preston Rain or Shine - Gallery Page</title>  
+  </head>
+  <body id="body">
+    <header>
+      <img src="images/logo.svg" alt="sun logo photo">
+      <div class="headings">
+        <h1>PRESTON RAIN OR SHINE</h1>
+        <div class="motto">Come for the weather, stay for the fun</div>
+      </div>
+    </header>
+      <nav>
+        <a class="menu-button" href="#" onclick="toggleMenu()">&#9776; Menu</a>
+        <ul id="navigation" class="hide">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="preston.html">Preston</a></li>
+          <li><a href="sodasprings.html">Soda Springs</a></li>
+          <li><a href="fishhaven.html">Fish Haven</a></li>
+          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li class="active"><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+      <main class="gallery-main">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+          <figure class="gallery-img1">
+            <img src="images/placeholder_275x200.png" data-src="images/gallery-img1.webp" alt="Photo of Preston rainbow in spring">
+            <figcaption>Preston rainbow in spring</figcaption>
+          </figure>
+          <figure class="gallery-img2">
+            <img src="images/placeholder_275x200.png" data-src="images/gallery-img2.jpg" alt="Photo of sunny day in Soda Springs">
+            <figcaption>Sunny day in Soda Springs</figcaption>
+          </figure>
+          <figure class="gallery-img3">
+            <img src="images/placeholder_275x200.png" data-src="images/gallery-img3.webp" alt="Photo of Bear Lake winter">
+            <figcaption>Bear Lake winter</figcaption>
+          </figure>
+          <figure class="gallery-img4">
+            <img src="images/placeholder_275x200.png" data-src="images/gallery-img4.jpg" alt="Photo of clouds over Soda Springs">
+            <figcaption>Clouds over Soda Springs</figcaption>
+          </figure>
+          <figure class="gallery-img5">
+            <img src="images/placeholder_275x200.png" data-src="images/gallery-img5.jpg" alt="Photo of snowy Idaho mountains">
+            <figcaption>Snowy Idaho mountains</figcaption>
+          </figure>
+          <figure class="gallery-img6">
+            <img src="images/placeholder_275x200.png" data-src="images/gallery-img6.jpg" alt="Photo of Preston fields">
+            <figcaption>Preston fields</figcaption>
+          </figure>
+          <figure class="gallery-img7">
+            <img src="images/placeholder_275x200.png" data-src="images/gallery-img7.jpg" alt="Photo of beautiful summer sunset">
+            <figcaption>Beautiful summer sunset</figcaption>
+          </figure>
+          <figure class="gallery-img8">
+            <img src="images/placeholder_275x200.png" data-src="images/gallery-img8.jpg" alt="Photo with fall colors">
+            <figcaption>Fall colors</figcaption>
+          </figure>
+          <figure class="gallery-img9">
+            <img src="images/placeholder_275x200.png" data-src="images/gallery-img9.jpg" alt="Photo of crisp fall morning">
+            <figcaption>Crisp fall morning</figcaption>
+          </figure>
+        </div>
+      </main>
+    <footer>
+      <div class="map-contact-div">
+        <img class="map" src="images/map.jpg" alt="Preston map photo">
+        <div class="contact-div">
+          <ul class="contact-list">
+            <li class="contact-info">Contact Information:</li>
+            <li>Preston Rain or Shine</li>
+            <li>1234 S State St, Preston, ID 83263</li>
+            <li><a href="tel:2085551234">(208)555-1234</a></li>
+            <li><a href="mailto:prestonrainorshine@gmail.com">prestonrainorshine@gmail.com</a></li>
+          </ul>
+          <a href="https://www.facebook.com" target="_blank"><img class="social-icon" src="images/fb-icon.svg" alt="facebook link"></a>
+          <a href="https://www.instagram.com" target="_blank"><img class="social-icon" src="images/ig-icon.svg" alt="instagram link"></a>
+          <a href="https://www.twitter.com" target="_blank"><img class="social-icon" src="images/tw-icon.svg" alt="twitter link"/></a>
+        </div>
+      </div>
+      <ul class="footer-list">
+        <li>&copy; Preston Rain or Shine</li>
+        <li>Rebecca Kilger</li>
+        <li id="currentDate"></li>
+      </ul>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webFont.js"></script>
+  </body>
+</html>
