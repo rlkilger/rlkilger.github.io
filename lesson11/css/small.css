@@ -183,6 +183,10 @@ h3 {
   background-color: #EBEBEB;
 }
 
+.events-div {
+  text-align: center;
+}
+
 .article-heading {
   margin-bottom: 40px;
 }

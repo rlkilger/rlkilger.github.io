@@ -26,7 +26,7 @@ fetch(requestURL)
         motto.setAttribute("class", `town-motto`);
         year.innerHTML = `Year Founded: ${town.yearFounded}`;
         pop.innerHTML = `Population: ${town.currentPopulation}`;
-        rain.innerHTML = `Anual Rain Fall: ${town.averageRainfall}`;
+        rain.innerHTML = `Annual Rain Fall: ${town.averageRainfall}`;
         image.setAttribute("src", `images/${town.photo}`);
         image.setAttribute("alt", `Photo of ${town.name}`);
 
@@ -38,6 +38,6 @@ fetch(requestURL)
         infoDiv.append(rain);
         section.append(image);
         sections.append(section);
-    }
+      }
     });
   });
