@@ -48,7 +48,7 @@ fetch(forecastapiURL)
     //console.log(jsObject);
 
     let count = 0;
-    const dayOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+    const dayOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     
     for (let i = 0; count < 5; i++) {
       let obj = jsObject.list[i];
