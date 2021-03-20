@@ -129,14 +129,14 @@ h2 {
 }
 
 .current-temp {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   margin-right: 24px;
 }
 
 .current-temp-img {
-  width: 110px;
+  width: 90px;
   max-width: 100%;
 }
 
@@ -174,7 +174,7 @@ h3 {
 .forecast-img {
   display: block;
   max-width: 100%;
-  width: 120px;
+  width: 90px;
 }
 
 .container {
