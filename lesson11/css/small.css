@@ -198,7 +198,7 @@ h3 {
 }
 
 .article-paragraph {
-  line-height: 24px;
+  line-height: 26px;
   padding-top: 10px;
 }
 
@@ -351,12 +351,12 @@ button:hover {
   max-width: 90%;
 }
 
-.home-heading a {
+.article-heading a {
   color: #BE2F29;
   text-decoration: none;
 }
 
-.home-heading a:hover {
+.article-heading a:hover {
   text-decoration: underline;
 }
 
@@ -366,9 +366,9 @@ button:hover {
   max-width: 100%;
 }
 
-.home-article {
+.article {
   margin: 40px 0;
-  padding: 20px;
+  padding: 40px;
   background-color: #EBEBEB;
 }
 

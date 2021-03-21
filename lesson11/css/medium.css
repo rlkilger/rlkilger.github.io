@@ -123,6 +123,10 @@
     display: block;
   }
 
+  .article-paragraph {
+    font-size: 18px;
+  }
+
   footer {
     font-size: inherit;
   }
