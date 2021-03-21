@@ -115,14 +115,6 @@
     width: 50%;
   }
 
-  .small-home-paragraph {
-    display: none;
-  }
-  
-  .home-paragraph {
-    display: block;
-  }
-
   .article-paragraph {
     font-size: 18px;
   }
