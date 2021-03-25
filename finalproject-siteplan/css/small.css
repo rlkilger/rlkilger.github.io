@@ -1,0 +1,112 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  font-size: 18px;
+  color: #262737;
+  max-width: 100%;
+  background-color: #FEF5EF;
+}
+
+h1,
+h2,
+h3,
+nav {
+  font-family: "Changa", sans-serif;
+  color: #004664;
+}
+
+p {
+line-height: 24px;
+color: #000E14;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+  border-bottom: 1px double;
+}
+
+.menu-button {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #262737;
+}
+
+a:hover {
+  color: #E9962B;
+}
+
+nav {
+  text-align: right;
+  background-color: #004664;
+  padding: 10px 0;
+}
+
+nav ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+nav li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FEF5EF;
+  padding: 0 10px;
+}
+
+.active {
+  background-color: #6DAABF;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  width: 1100px;
+  max-width: 95%;
+  margin: 20px auto;
+}
+
+.container {
+  padding: 20px 0;
+}
+
+.color {
+  padding-left: 0;
+  padding: 10px 0;
+}
+
+.colors li {
+  list-style: none;
+}
+
+.color-desc {
+  padding: 10px 0 30px;
+}
+
+.primary {
+  color: #004664;
+}
+
+.accent {
+  color: #E9962B;
+}
+
+.accent2 {
+  color: #6DAABF;
+}
+
+.site-map {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #004664;
+}
