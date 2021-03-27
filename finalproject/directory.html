@@ -1,46 +1,60 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang = "en-us">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Rebecca Kilger">
-    <meta name="description" content="Rebecca Kilger WDD 230">
-    <link rel="shortcut icon" href="../favicon.ico">
+    <meta name="description" content="Cedar Hills Chamber of Commerce - Home Page">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo&family=Changa:wght@500&display=swap">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <title></title>  
+    <title>Cedar Hills Chamber of Commerce - Home Page</title>  
   </head>
   <body>
     <header>
-      <img src="" alt="">
-      <div>
-        <h1></h1>
-        <div></div>
-      </div>
+      <a href="index.html"><img class="header-logo" src="images/logo.png" alt="photo of chamber logo"></a>
     </header>
-      <nav>
-        <a class="menu-button" href="#" onclick="toggleMenu()">&#9776; Menu</a>
-        <ul id="navigation" class="hide">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="join.html">Join</a></li>
-          <li><a href="cedarhills.html">Cedar Hills</a></li>
-          <li class="active"><a href="directory.html">Directory</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <a class="menu-button" href="#" onclick="toggleMenu()">&#9776;</a>
+      <ul id="navigation" class="hide">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="cedarhills.html">CITY OF CEDAR HILLS</a></li>
+        <li><a href="join.html">JOIN THE CHAMBER</a></li>
+        <li class="active"><a href="directory.html">MEMBER DIRECTORY</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+    </nav>
     <main>
+      <h1>CEDAR HILLS CHAMBER OF COMMERCE</h1>
     </main>
     <footer>
-      <ul>
+      <a href="index.html"><img class="footer-logo" src="images/logo.png" alt="photo of chamber logo"></a>
+      <ul class="contact-list">
+        <li><h4>Contact Information:</h4></li>
+        <li>Cedar Hills Chamber of Commerce</li>
+        <li>201 S Cedar Hills Dr, Cedar Hills, UT 84062</li>
+        <li><a href="tel:8015551234">(801) 555-1234</a></li>
+        <li><a href="mailto:thecedarhillschamber@gmail.com">thecedarhillschamber@gmail.com</a></li>
+      </ul>
+      <ul class="hours-list">
+        <li><h4>Business Hours:</h4></li>
+        <li>Sunday closed</li>
+        <li>Monday-Friday 9:00am - 5:00pm</li>
+        <li>Saturday 10:00am - 4:00pm</li>
+      </ul>
+      <ul class="footer-list">
         <li>&copy; <span id="year"></span></li>
-        <li>Rebecca Kilger</li>
+        <li><a href="#">Attributions</a></li>
         <li class="date">Last updated: <span id="lastMod"></span></li>
+      </ul>
+      <ul class="social-list">
+        <li><a href="https://www.facebook.com" target="_blank"><img class="social-icon" src="images/fb-icon.svg" alt="facebook link"></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><img class="social-icon" src="images/ig-icon.svg" alt="instagram link"></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><img class="social-icon" src="images/tw-icon.svg" alt="twitter link"/></a></li>
       </ul>
     </footer>
     <script src="js/javascript.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webFont.js"></script>
   </body>
 </html>

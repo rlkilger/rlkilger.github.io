@@ -1,0 +1,133 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  color: #262737;
+  background-color: #FEF5EF;
+  max-width: 100%;
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: "Changa", sans-serif;
+  color: #004664;
+}
+
+nav,
+h4 {
+  font-family: "Changa", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #004664;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  line-height: 24px;
+  color: #000E14;
+}
+
+
+header {
+  text-align: center;
+  padding: 40px;
+}
+
+.header-logo {
+  width: 150px;
+}
+
+
+.menu-button {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+nav {
+  text-align: right;
+  background-color: #004664;
+  padding: 10px 0;
+}
+
+nav ul {
+  margin-bottom: 0;
+}
+
+nav li {
+  padding: 10px;
+}
+
+nav a, .footer-list a {
+  color: #FEF5EF;
+}
+
+a:hover {
+  color: #E9962B;
+}
+
+.active {
+  background-color: #6DAABF;
+}
+
+.hide {
+  display: none;
+}
+
+
+main {
+  width: 1100px;
+  max-width: 95%;
+  margin: 20px auto;
+}
+
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid #004664;
+  padding-top: 40px;
+}
+
+.footer-logo {
+  width: 80px;
+}
+
+.contact-list, .hours-list {
+  margin: 40px 0;
+}
+
+.footer-list {
+  background-color: #004664;
+  color: #FEF5EF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.footer-list li {
+  margin: 10px;
+  padding: 0 6px;
+}
+
+.social-list {
+  background-color: #004664;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.social-list a {
+  display: inline-block;
+  padding: 5px 5px 10px;
+}
