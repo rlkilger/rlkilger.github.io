@@ -1,7 +1,7 @@
 body {
   font-family: 'Cairo', sans-serif;
   color: #262737;
-  background-color: #FEF5EF;
+  background-color: #eee;
   max-width: 100%;
 }
 
@@ -11,6 +11,10 @@ h2,
 h3 {
   font-family: "Changa", sans-serif;
   color: #004664;
+}
+
+h1 {
+  text-align: center;
 }
 
 nav,
@@ -39,11 +43,11 @@ p {
 
 header {
   text-align: center;
-  padding: 40px;
 }
 
 .header-logo {
   width: 150px;
+  padding: 40px 40px 30px;
 }
 
 
@@ -54,8 +58,10 @@ header {
 
 nav {
   text-align: right;
+  max-width: 1300px;
   background-color: #004664;
   padding: 10px 0;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -67,7 +73,7 @@ nav li {
 }
 
 nav a, .footer-list a {
-  color: #FEF5EF;
+  color: #eee;
 }
 
 a:hover {
@@ -82,13 +88,38 @@ a:hover {
   display: none;
 }
 
+.banner-img {
+  max-width: 100%;
+}
+
 
 main {
-  width: 1100px;
+  width: 1300px;
   max-width: 95%;
   margin: 20px auto;
 }
 
+
+label {
+  display: block;
+}
+
+.star {
+  color: #BE2F29;
+}
+
+input {
+  width: 95%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+textarea {
+  width: 93.5%;
+  height: 100px;
+  padding: 10px;
+  margin: 5px 0;
+}
 
 footer {
   font-size: 14px;
@@ -107,7 +138,7 @@ footer {
 
 .footer-list {
   background-color: #004664;
-  color: #FEF5EF;
+  color: #eee;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

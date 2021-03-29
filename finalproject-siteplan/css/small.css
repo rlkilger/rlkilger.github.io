@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   color: #262737;
   max-width: 100%;
-  background-color: #FEF5EF;
+  background-color: #EEEEEE;
 }
 
 h1,
@@ -56,7 +56,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #FEF5EF;
+  color: #EEEEEE;
   padding: 0 10px;
 }
 

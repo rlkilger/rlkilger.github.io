@@ -1,8 +1,56 @@
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
   body {
   font-size: 18px;
   }
 
+
+  header {
+    padding-bottom: 0;
+  }
+
+  .header-logo {
+    padding-bottom: 0;
+  }
+  
+  nav {
+    background-color: #EEE;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+
+  nav a {
+    color: #004664;
+  }
+
+  .active {
+    background-color: #EEE;
+  }
+
+  .active a {
+    color: #6DAABF;
+    border-bottom: 2px solid;
+  }
+
+  a:hover {
+    color: #E9962B;
+  }
+
+  nav a:hover {
+    border-bottom: 2px solid;
+  }
+
+    
   footer {
     font-size: 16px;
   }
