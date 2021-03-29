@@ -1,6 +1,4 @@
-const requestURL = "";
-
-fetch(requestURL)
+fetch("json/businesses.json")
   .then(function (response) {
     return response.json();
   })
@@ -10,7 +8,7 @@ fetch(requestURL)
     
     const cards = document.querySelector(".cards");
     
-    for (let i = 0; i < 1; i++ ) {
+    for (let i = 0; i < businesses.length; i++ ) {
       let image = document.createElement("img");
 
       image.setAttribute("src", businesses[i].imageurl)
