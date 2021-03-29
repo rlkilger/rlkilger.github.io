@@ -8,12 +8,14 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+.level {
   font-family: "Changa", sans-serif;
   color: #004664;
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -52,8 +54,8 @@ header {
 
 
 .menu-button {
-  font-size: 30px;
-  padding-right: 10px;
+  font-size: 25px;
+  padding-right: 12px;
 }
 
 nav {
@@ -100,6 +102,22 @@ main {
 }
 
 
+fieldset {
+  border: 1px solid;
+  margin: 10px;
+}
+
+fieldset div {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+legend {
+  color: #004664;
+  text-align: center;
+  padding: 20px 10px;
+}
+
 label {
   display: block;
 }
@@ -111,7 +129,7 @@ label {
 input {
   width: 95%;
   padding: 5px;
-  margin: 5px 0;
+  margin: 5px 0 30px;
 }
 
 textarea {
@@ -121,8 +139,56 @@ textarea {
   margin: 5px 0;
 }
 
+.form-fieldset {
+  max-width: 1020px;
+  margin: 10px;
+}
+
+.radio-label {
+  max-width: 1300px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.radio-label span {
+  display: block;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=radio] + label {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+input[type=radio] + label:hover {
+  border: 1px solid #6DAABF;
+}
+
+input[type=radio]:checked + label {
+  border: 1px solid #E9962B;
+}
+
+.button {
+  text-align: center;
+  padding: 40px 0;
+}
+
+button {
+  background-color: #004664;
+  color: #EEE;
+  border: none;
+  padding: 10px 15px;
+}
+
+button:hover {
+  background-color: #6DAABF;
+}
+
+
 footer {
-  font-size: 14px;
   text-align: center;
   border-top: 1px solid #004664;
   padding-top: 40px;
@@ -137,6 +203,7 @@ footer {
 }
 
 .footer-list {
+  font-size: 14px;
   background-color: #004664;
   color: #eee;
   display: flex;

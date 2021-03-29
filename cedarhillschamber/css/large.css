@@ -1,10 +1,32 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
   body {
     font-size: 22px;
-    }
-     
+    }  
+  
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-container fieldset {
+    width: 480px;
+  }
+
+  .fieldset-1 {
+    margin: 10px 10px 10px 0;
+  }
+
+  .fieldset-2 {
+    margin: 10px 0 10px 10px;
+  }
+
+  .form-fieldset {
+    margin: 0 auto;
+  }
+
     
-  footer {
+  .footer-list {
     font-size: 18px;
   }
 }
