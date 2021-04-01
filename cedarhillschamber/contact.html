@@ -29,9 +29,50 @@
     </header>
     <main>
       <h1>CONTACT US</h1>
-      <form method="get" action="thanks.html">
-        
-      </form>
+      <div class="contact-container">
+        <form method="get" action="response.html">
+          <fieldset>
+            <legend>Contact Information</legend>
+              <div>
+                <label for="name">Name: <span class="star">*</span></label>
+                <input type="text" id="name" name="name" pattern="[A-Z a-z\-]{5,}" required>
+              </div>
+              <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+              </div>
+              <div>
+                <label for="email">Email: <span class="star">*</span></label>
+                <input type="email" id="email" name="email" placeholder="thecedarhillschamber@gmail.com" required>
+              </div>
+              <div>
+                <label for="more-info">Questions/comments: <span class="star">*</span></label>
+                <textarea id="more-info" name="more-info" required></textarea>
+                </div>
+            <div class="button">
+              <button type="submit">Continue</button>
+            </div>
+          </fieldset>
+        </form>
+        <div class="contact-info">
+          <ul class="contact">
+            <li class="bold">Cedar Hills Chamber of Commerce</li>
+            <li>201 S Cedar Hills Dr</li>
+            <li>Cedar Hills, UT 84062</li>
+            <li><a href="tel:8015551234">(801) 555-1234</a></li>
+            <li><a href="mailto:thecedarhillschamber@gmail.com">thecedarhillschamber@gmail.com</a></li>
+          </ul>
+          <ul class="contact">
+            <li class="bold">Board Directors</li>
+            <li>Jeffrey Thornberg</li>
+            <li>Alicia Hernandez</li>
+            <li>Jonathan Anderson</li>
+            <li>Frank Albright</li>
+            <li>Leslie Larson</li>
+          </ul>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24302.743259378647!2d-111.77168960272523!3d40.41233075533948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d86d06646f093%3A0x7ef83fe59cad52b3!2sCedar%20Hills%2C%20UT%2084062!5e0!3m2!1sen!2sus!4v1617295381385!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="contact-div">

@@ -30,6 +30,39 @@
     margin: 0 auto;
   }
 
+  form label{
+    font-size: 18px;
+  }
+
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-container form {
+    width: 480px;
+    margin-bottom: 30px;
+  }
+
+  .contact-info {
+    width: 480px;
+    margin: auto 0;
+  }
+
+  .contact {
+    width: 290px;
+    margin-top: 10px;
+  }
+
+
+  .response {
+    width: 480px;
+  }
+
+
+
+
   
   footer {
     padding: 0;
