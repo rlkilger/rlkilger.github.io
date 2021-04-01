@@ -14,6 +14,7 @@
   </head>
   <body>
     <header>
+      <div class="login"><a href="#">MEMBER LOGIN</a></div>
       <a href="home.html"><img class="header-logo" src="images/logo.png" alt="photo of chamber logo"></a>
       <nav>
         <a class="menu-button" href="#" onclick="toggleMenu()">&#9776;</a>
@@ -29,48 +30,49 @@
     </header>
     <main>
       <h1>JOIN THE CHAMBER</h1>
+      <p class="thanks-msg">We are excited to welcome you to the Cedar Hills Chamber of Commerce! Please fill out your information and click the button below to continue with your registration.</p>
       <form method="get" action="thanks.html">
         <div class="form-container">
           <fieldset class="fieldset-1">
             <legend>Your Information</legend>
-            <div class="form-div">
-              <div>
-                <label for="first-name">First name: <span class="star">*</span> </label>
-                <input type="text" id="first-name" name="first-name" pattern="[A-Z a-z\-]{5,}" required>
-              </div>
-              <div>
-                <label for="last-name">Last name: <span class="star">*</span> </label>
-                <input type="text" id="last-name" name="last-name" pattern="[A-Z a-z\-]{5,}" required>
-              </div>
-              <div>
-                <label for="job-title">Job title: </label>
-                <input type="text" id="job-title" name="job-title" pattern="[A-Z a-z\-]{5,}">
-              </div>
-              <div>
-                <label for="email">Email address: <span class="star">*</span> </label>
-                <input type="email" id="email" name="email" placeholder="thecedarhillschamber@gmail.com" required>
-              </div>
-              <div>
-                <label for="phone">Mobile number: </label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
-              </div>
+            <div>
+              <label for="first-name">First name: <span class="star">*</span> </label>
+              <input type="text" id="first-name" name="first-name" pattern="[A-Z a-z\-]{5,}" required>
+            </div>
+            <div>
+              <label for="last-name">Last name: <span class="star">*</span> </label>
+              <input type="text" id="last-name" name="last-name" pattern="[A-Z a-z\-]{5,}" required>
+            </div>
+            <div>
+              <label for="job-title">Job title: </label>
+              <input type="text" id="job-title" name="job-title" pattern="[A-Z a-z\-]{5,}">
+            </div>
+            <div>
+              <label for="email">Email address: <span class="star">*</span> </label>
+              <input type="email" id="email" name="email" placeholder="thecedarhillschamber@gmail.com" required>
+            </div>
+            <div>
+              <label for="phone">Mobile number: </label>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
             </div>
           </fieldset>
           <fieldset class="fieldset-2">
             <legend>Company Information</legend>
-            <div class="form-div">
-              <div>
-                <label for="company-name">Company name: <span class="star">*</span> </label>
-                <input type="text" id="company-name" name="last-name" pattern="[A-Z a-z\-]{5,}" required>
-              </div>
-              <div>
-                <label for="website">Website: </label>
-                <input type="url" id="website" name="url" placeholder="https://example.com" pattern="https://.*" size="30">
-              </div>
-              <div>
-                <label for="more-info">Please give more information about your company: </label>
-                <textarea id="more-info" name="more-info"></textarea>
-              </div>
+            <div>
+              <label for="company-name">Company name: <span class="star">*</span> </label>
+              <input type="text" id="company-name" name="last-name" pattern="[A-Z a-z\-]{5,}" required>
+            </div>
+            <div>
+              <label for="website">Website: </label>
+              <input type="url" id="website" name="url" placeholder="https://example.com" pattern="https://.*" size="30">
+            </div>
+            <div>
+              <label for="address">Street address: </label>
+              <input type="text" id="address" name="address">
+            </div>
+            <div>
+              <label for="more-info">Please give more information about your company: </label>
+              <textarea id="more-info" name="more-info"></textarea>
             </div>
           </fieldset>
         </div>
@@ -79,35 +81,55 @@
             <div class="radio-label">
               <input type="radio" id="non-profit" name="membership" value="non-profit">
               <label for="non-profit">
-                <span class="level">Non-profit - $100</span>
+                <span class="level">Non-profit - $100*</span>
                 <span>Benefits:</span>
+                <span>- Listing in our online Member Directory and advertisement through the Chamber</span>
+                <span>- Member pricing for Chamber events</span>
+                <span>- Invitation to exclusive workshops and trainings programs</span>
+                <span>- One(1) reserved seat at monthly Chamber Luncheons</span>
               </label>
             </div>
             <div class="radio-label">
               <input type="radio" id="bronze" name="membership" value="bronze">
               <label for="bronze">
-                <span class="level">Bronze - $200</span>
+                <span class="level">Bronze - $200*</span>
                 <span>Benefits:</span>
+                <span>- All benefits from the non-profit level</span>
+                <span>- Two(2) total reserved seats at monthly Chamber Luncheons</span>
+                <span>- One(1) Corporate Golf Pass</span>
               </label>
             </div>
             <div class="radio-label">
               <input type="radio" id="silver" name="membership" value="silver">
               <label for="silver">
-                <span class="level">Silver - $400</span>
+                <span class="level">Silver - $400*</span>
                 <span>Benefits:</span>
+                <span>- All benefits from the non-profit level</span>
+                <span>- Three(3) total reserved seats at monthly Chamber Luncheons</span>
+                <span>- Two(2) Corporate Golf Passes</span>
+                <span>- $50 sponsorship credit</span>
               </label>
             </div>
             <div class="radio-label">
               <input type="radio" id="gold" name="membership" value="gold">
               <label for="gold">
-                <span class="level">Gold - $1000</span>
+                <span class="level">Gold - $1000*</span>
                 <span>Benefits:</span>
+                <span>- All benefits from the non-profit level</span>
+                <span>- Four(3) total reserved seats at monthly Chamber Luncheons</span>
+                <span>- Four(4) Corporate Golf Passeses</span>
+                <span>- $200 sponsorship credit</span>
               </label>
             </div>
+            <span>* Dues are paid annually</span>
           </fieldset>
           <fieldset class="form-fieldset">
             <legend>Create online account</legend>
-            <div class="join-div">
+            <div class="account">
+              <label for="name">Create a username (Must be at least 8 characters): <span class="star">*</span></label>
+              <input type="text" id="name" name="name" minlength="8" required>
+              <label for="password">Password (Must be at least 8 characters): <span class="star">*</span></label>
+              <input type="password" id="password" name="password" minlength="8" required>
             </div>
           </fieldset>
         <div class="button">
@@ -116,20 +138,23 @@
       </form>
     </main>
     <footer>
-      <a href="home.html"><img class="footer-logo" src="images/logo.png" alt="photo of chamber logo"></a>
-      <ul class="contact-list">
-        <li><h4>Contact Information:</h4></li>
-        <li>Cedar Hills Chamber of Commerce</li>
-        <li>201 S Cedar Hills Dr, Cedar Hills, UT 84062</li>
-        <li><a href="tel:8015551234">(801) 555-1234</a></li>
-        <li><a href="mailto:thecedarhillschamber@gmail.com">thecedarhillschamber@gmail.com</a></li>
-      </ul>
-      <ul class="hours-list">
-        <li><h4>Business Hours:</h4></li>
-        <li>Sunday closed</li>
-        <li>Monday-Friday 9:00am - 5:00pm</li>
-        <li>Saturday 10:00am - 4:00pm</li>
-      </ul>
+      <div class="contact-div">
+        <a class="footer-logo" href="home.html"><img src="images/logo.png" alt="photo of chamber logo"></a>
+        <ul class="contact-list">
+          <li><h4>Contact Information:</h4></li>
+          <li>201 S Cedar Hills Dr</li>
+          <li>Cedar Hills, UT 84062</li>
+          <li><a href="tel:8015551234">(801) 555-1234</a></li>
+          <li><a href="mailto:thecedarhillschamber@gmail.com">thecedarhillschamber@gmail.com</a></li>
+        </ul>
+        <a class="footer-logo-lg" href="home.html"><img src="images/logo.png" alt="photo of chamber logo"></a>
+        <ul class="hours-list">
+          <li><h4>Business Hours:</h4></li>
+          <li>Sunday closed</li>
+          <li>Monday-Friday 9:00am - 5:00pm</li>
+          <li>Saturday 10:00am - 4:00pm</li>
+        </ul>
+      </div>
       <ul class="footer-list">
         <li>&copy; <span id="year"></span></li>
         <li><a href="#">Attributions</a></li>

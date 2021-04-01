@@ -1,7 +1,12 @@
 @media only screen and (min-width: 900px) {
   body {
-    font-size: 22px;
+    font-size: 20px;
     }  
+
+
+  nav {
+    font-size: 20px;
+  }
   
 
   .form-container {
@@ -25,7 +30,34 @@
     margin: 0 auto;
   }
 
+  
+  footer {
+    padding: 0;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  .footer-logo-lg {
+    display: block;
+    margin: auto 30px;
+  }
+
+  .footer-logo-lg img {
+    width: 100px;
+  }
     
+  .contact-div {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+  }
+
+  .contact-list, .hours-list {
+    width: 360px;
+  }
+
   .footer-list {
     font-size: 18px;
   }

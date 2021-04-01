@@ -9,6 +9,7 @@ body {
 h1,
 h2,
 h3,
+legend,
 .level {
   font-family: "Changa", sans-serif;
   color: #004664;
@@ -42,6 +43,17 @@ p {
   color: #000E14;
 }
 
+
+.login {
+  font-size: 16px;
+  background-color: #004664;
+  text-align: right;
+  padding: 10px;
+}
+
+.login a {
+  color: white;
+}
 
 header {
   text-align: center;
@@ -107,13 +119,7 @@ fieldset {
   margin: 10px;
 }
 
-fieldset div {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 legend {
-  color: #004664;
   text-align: center;
   padding: 20px 10px;
 }
@@ -134,7 +140,7 @@ input {
 
 textarea {
   width: 93.5%;
-  height: 100px;
+  height: 110px;
   padding: 10px;
   margin: 5px 0;
 }
@@ -154,22 +160,38 @@ textarea {
   display: block;
 }
 
-input[type=radio] {
+.radio-label input {
   display: none;
 }
 
-input[type=radio] + label {
+.level {
+  margin: 5px 0;
+}
+
+.radio-label input + label {
   background-color: #FFFFFF;
   padding: 20px;
 }
 
-input[type=radio] + label:hover {
+.radio-label input + label:hover {
+  border: 1px solid #E9962B;
+}
+
+.radio-label input + label:hover .level {
+  color: #E9962B;
+}
+
+.radio-label input:checked + label {
   border: 1px solid #6DAABF;
 }
 
-input[type=radio]:checked + label {
-  border: 1px solid #E9962B;
+.radio-label input:checked + label .level {
+  color: #6DAABF;
 }
+
+.account input {
+  max-width: 400px;
+} 
 
 .button {
   text-align: center;
@@ -188,18 +210,29 @@ button:hover {
 }
 
 
+.thanks-msg {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+
 footer {
   text-align: center;
   border-top: 1px solid #004664;
   padding-top: 40px;
 }
 
-.footer-logo {
+.footer-logo img {
   width: 80px;
 }
 
 .contact-list, .hours-list {
   margin: 40px 0;
+}
+
+.footer-logo-lg {
+  display: none;
 }
 
 .footer-list {
