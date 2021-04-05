@@ -276,6 +276,40 @@ iframe {
 }
 
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px #7a7a7a;
+  width: 280px;
+  height: 320px;
+  margin: 10px auto;
+  padding: 30px 20px;
+}
+
+.card img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.card h4 {
+  text-align: center;
+}
+
+.card span {
+  display:block;
+  margin: 10px 0;
+}
+
+
 footer {
   text-align: center;
   border-top: 6px solid #004664;
@@ -320,10 +354,4 @@ footer {
 .social-list a {
   display: inline-block;
   padding: 5px 5px 10px;
-}
-
-
-
-.cards img {
-  width: 250px;
 }

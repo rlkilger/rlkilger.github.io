@@ -2,77 +2,60 @@
   "businesses": [
     {
       "name": "Lone Peak Dental",
-      "address": "4689 W Cedar Hills Dr",
-      "phone": "(801) 756-2372",
-      "hours": "M - F / 7AM - 11PM",
-      "website": "https://www.walmart.com/store/4689-cedar-hills-ut",
+      "address": "10060 North 4600 West",
+      "phone": "801-492-0402",
+      "href": 8014920402,
+      "email": "lonepeakdental@gmail.com",
+      "website": "lonepeakdental.com",
       "imageurl": "https://static.wixstatic.com/media/257d25_860c822f5c1045e08cfa9a7ccd62f0d8~mv2.png/v1/fill/w_542,h_95,al_c,lg_1,q_85/LPD%20Logo%20-%20website.webp"
     },
     {
       "name": "Eagar Heating and Cooling",
-      "lastname": "Young",
-      "birthdate": "01 June 1801",
-      "death": "29 August 1877",
-      "length": 30,
-      "order": 2,
-      "birthplace": "Vermont",
-      "numofchildren": 56,
+      "address": "9980 N 4000 W",
+      "phone": "801-515-3594",
+      "href": 8015153594,
+      "email": "service@eagarheating.com",
+      "website": "eagarheating.com",
       "imageurl": "https://www.eagarheating.com/wp-content/uploads/2020/04/Logo.png"
     },
     {
       "name": "Frontier Kitchens: Countertops & Cabinets",
-      "lastname": "Taylor",
-      "birthdate": "01 November 1808",
-      "death": "25 July 1887",
-      "length": 6,
-      "order": 3,
-      "birthplace": "England",
-      "numofchildren": 34,
-      "imageurl": "images/frontier-logo.png"
+      "address": "9952 Dorchester Drive",
+      "phone": "801-494-9678",
+      "href": 8014949678,
+      "website": "frontierkitchens.business.site"
     },
     {
       "name": "Cedar Hills Dance",
-      "lastname": "Woodruff",
-      "birthdate": "01 March 1807",
-      "death": "02 September 1898",
-      "length": 9,
-      "order": 4,
-      "birthplace": "Connecticut",
-      "numofchildren": 34,
-      "imageurl": "images/cedarhillsdance-logo.png"
+      "address": "10090 Willow Ct",
+      "phone": "801-850-7086",
+      "href": 8018507086,
+      "email": "Jacquel.Tholl@gmail.com",
+      "website": "sites.google.com/view/cedar-hills-dance"
     },
     {
       "name": "The Vista at Cedar Hills",
-      "lastname": "Snow",
-      "birthdate": "03 April 1814",
-      "death": "19 October 1901",
-      "length": 3,
-      "order": 5,
-      "birthplace": "Ohio",
-      "numofchildren": 42,
+      "address": "10640 N Clubhouse Dr",
+      "phone": "801-785-9668",
+      "href": 8017859668,
+      "email": "events@cedarhills.org",
+      "website": "vistacedarhills.com",
       "imageurl": "https://static.wixstatic.com/media/41dbfa_d3ae499d2fd1467882a7569bd86bf7cd~mv2.png/v1/fill/w_490,h_156,al_c,q_85,usm_0.66_1.00_0.01/Untitled%20design%20(9).webp"
     },
     {
       "name": "Smile Perfect Orthodontics",
-      "lastname": "Smith",
-      "birthdate": "12 November 1838",
-      "death": "19 November 1918",
-      "length": 17,
-      "order": 6,
-      "birthplace": "Missouri",
-      "numofchildren": 48,
-      "imageurl": "https://smileperfectortho.com/wp-content/uploads/2018/01/Smile-Perfect-logo-RED.png"
+      "address": "4587 West Cedar Hills Drive, Suite 200",
+      "phone": "801-642-0995",
+      "href": 8016420995,
+      "website": "smileperfectortho.com"
     },
     {
-      "name": "Open Source Tailoring",
-      "lastname": "Grant",
-      "birthdate": "22 November 1856",
-      "death": "14 May 1945",
-      "length": 23,
-      "order": 7,
-      "birthplace": "Utah",
-      "numofchildren": 12,
-      "imageurl": "http://www.ostailors.com/images/logo.png"
+      "name": "Fat Boy Catering & Craft Service",
+      "address": "9991 N 4160 W",
+      "phone": "801-310-4575",
+      "href": 8013104575,
+      "email": "richard@fatboycatering.com",
+      "website": "fatboycatering.com"
     }
   ]
 }
