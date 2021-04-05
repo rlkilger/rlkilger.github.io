@@ -62,7 +62,18 @@
   }
 
 
+  .event {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 40px auto;
+  }
 
+  .event img,
+  .event div {
+    width: 50%;
+    margin: 20px;
+  }
 
   
   footer {

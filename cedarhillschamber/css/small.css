@@ -15,7 +15,8 @@ legend,
   color: #004664;
 }
 
-h1 {
+h1,
+.events-heading {
   text-align: center;
   margin: 40px;
 }
@@ -59,6 +60,7 @@ p {
   color: white;
 }
 
+
 header {
   text-align: center;
 }
@@ -66,6 +68,7 @@ header {
 .header-logo {
   width: 150px;
   padding: 40px 40px 30px;
+  margin-bottom: 20px;
 }
 
 
@@ -76,14 +79,13 @@ header {
 
 nav {
   text-align: right;
-  max-width: 1100px;
   background-color: #004664;
   padding: 10px 0;
-  margin: 0 auto;
+  margin: 0 auto ;
 }
 
 nav ul {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 nav li {
@@ -107,8 +109,17 @@ a:hover {
   display: none;
 }
 
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
 .banner-img {
+  display: block;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 
@@ -244,9 +255,30 @@ iframe {
 }
 
 
+.city-info {
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.banner2 {
+  width: 1000px;
+}
+
+.event {
+  margin-bottom: 60px;
+}
+
+.event img,
+.event div {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
 footer {
   text-align: center;
-  border-top: 1px solid #004664;
+  border-top: 6px solid #004664;
   padding-top: 40px;
 }
 
