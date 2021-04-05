@@ -91,6 +91,7 @@ nav li {
 }
 
 nav a, .footer-list a {
+  display: block;
   color: #eee;
 }
 
@@ -223,19 +224,18 @@ button:hover {
 
 .contact-info {
   text-align: center;
-  margin: 40px 0;
+  margin: 50px 0;
 }
 
 .contact {
-  text-align: left;
-  width: 235px;
-  margin: 10px auto;
+  margin: 30px auto;
 }
 
 iframe {
   max-width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
+
 
 .response-msg {
   text-align: center;

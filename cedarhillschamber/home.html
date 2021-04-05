@@ -26,7 +26,12 @@
           <li><a href="contact.html">CONTACT US</a></li>
         </ul>
       </nav>
-      <img class="banner-img" src="images/banner-img.webp" alt="Cedar Hills background photo">
+      <picture>
+        <source media="(max-width: 649px)" srcset="images/banner-home-sm.webp">
+        <source media="(min-width: 650px) and (max-width: 899px)" srcset="images/banner-home-med.webp">
+        <source media="(min-width: 900px)" srcset="images/banner-home-lrg.webp">
+        <img class="banner-img" src="images/banner-home-lrg.webp" alt="Cedar Hills background photo">
+      </picture>
     </header>
     <main>
       <h1>CEDAR HILLS CHAMBER OF COMMERCE</h1>
