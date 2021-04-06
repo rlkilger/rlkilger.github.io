@@ -102,7 +102,7 @@ a:hover {
 }
 
 .active {
-  background-color: #4B92AA;
+  background-color: #44869C;
 }
 
 .hide {
@@ -198,11 +198,11 @@ textarea {
 }
 
 .radio-label input:checked + label {
-  border: 1px solid #4B92AA;
+  border: 1px solid #44869C;
 }
 
 .radio-label input:checked + label .level {
-  color: #4B92AA;
+  color: #44869C;
 }
 
 .account input {
@@ -224,7 +224,7 @@ button,
 
 button:hover,
 .button a:hover {
-  background-color: #4B92AA;
+  background-color: #44869C;
   color: #EEE;
 }
 
