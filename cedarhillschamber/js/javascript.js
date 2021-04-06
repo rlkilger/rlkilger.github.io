@@ -23,3 +23,4 @@ function displayList() {
   document.getElementById("cards").classList.add("list");
   document.getElementById("cards").classList.remove("grid");
 }
+

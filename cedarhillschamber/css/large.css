@@ -76,6 +76,20 @@
   }
 
 
+  .home-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .home-section p,
+  .home-section img {
+    width: 400px;
+    padding: 15px;
+  }
+
   .home-cards {
     display: flex;
     flex-wrap: wrap;
