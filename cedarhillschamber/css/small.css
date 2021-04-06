@@ -102,7 +102,7 @@ a:hover {
 }
 
 .active {
-  background-color: #6DAABF;
+  background-color: #4B92AA;
 }
 
 .hide {
@@ -198,11 +198,11 @@ textarea {
 }
 
 .radio-label input:checked + label {
-  border: 1px solid #6DAABF;
+  border: 1px solid #4B92AA;
 }
 
 .radio-label input:checked + label .level {
-  color: #6DAABF;
+  color: #4B92AA;
 }
 
 .account input {
@@ -214,15 +214,18 @@ textarea {
   padding: 40px 0;
 }
 
-button {
+button,
+.button a {
   background-color: #004664;
   color: #EEE;
   border: none;
   padding: 10px 15px;
 }
 
-button:hover {
-  background-color: #6DAABF;
+button:hover,
+.button a:hover {
+  background-color: #4B92AA;
+  color: #EEE;
 }
 
 
@@ -291,24 +294,27 @@ iframe {
 }
 
 .grid .card,
-.list .card {
+.list .card,
+.home-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 1px 1px 5px #7a7a7a;
-  width: 275px;
+  width: 250px;
   height: 300px;
   margin: 10px auto;
   padding: 30px 20px;
 }
 
-.card img {
+.card img,
+.home-card img {
   width: 100%;
   margin: 20px 0;
 
 }
 
-.card h4 {
+.card h4,
+.home-card h4 {
   text-align: center;
   font-size: 26px;
 }

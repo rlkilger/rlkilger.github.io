@@ -75,6 +75,19 @@
     margin: 20px;
   }
 
+
+  .home-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+
+  .home-card {
+    width: 240px;
+  }
+
   
   footer {
     padding: 0;
