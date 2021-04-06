@@ -271,26 +271,33 @@ iframe {
 .event img,
 .event div {
   display: block;
-  width: 80%;
+  width: 90%;
+  max-width: 450px;
   margin: 0 auto;
 }
 
 
-.cards {
+.icons {
+  display: none;
+}
+
+.grid,
+.list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
 }
 
-.card {
+.grid .card,
+.list .card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 1px 1px 5px #7a7a7a;
-  width: 280px;
-  height: 320px;
+  width: 275px;
+  height: 300px;
   margin: 10px auto;
   padding: 30px 20px;
 }
@@ -298,15 +305,18 @@ iframe {
 .card img {
   width: 100%;
   margin: 20px 0;
+
 }
 
 .card h4 {
   text-align: center;
+  font-size: 26px;
 }
 
 .card span {
   display:block;
   margin: 10px 0;
+  font-size: 16px;
 }
 
 
