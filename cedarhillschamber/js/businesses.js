@@ -15,7 +15,6 @@ fetch("json/businesses.json")
       let spanDiv = document.createElement("div");
       let address = document.createElement("span");
       let phone = document.createElement("span");
-      let hours = document.createElement("span");
       let email = document.createElement("span");
       let website = document.createElement("span");
       let webAnchor = document.createElement("a");
