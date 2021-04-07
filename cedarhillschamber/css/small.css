@@ -15,7 +15,7 @@ legend,
 }
 
 h1,
-.events-heading {
+#events-heading {
   text-align: center;
   margin: 40px;
 }
