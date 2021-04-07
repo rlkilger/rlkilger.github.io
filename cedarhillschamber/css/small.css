@@ -329,8 +329,6 @@ iframe {
 }
 
 
-
-
 .home-section p {
   max-width: 600px;
   margin: 0 auto;
@@ -365,6 +363,7 @@ iframe {
   color: #004664;
   font-size: 26px;
   text-align: right;
+  margin-top: -6px;
 }
 
 .home-events {
@@ -374,6 +373,10 @@ iframe {
 
 .home-events div {
   margin: 15px 0;
+}
+
+.home-events a h2:hover{
+  color: #E9962B;
 }
 
 .home-card {
