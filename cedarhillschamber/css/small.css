@@ -40,7 +40,6 @@ li {
 
 p {
   line-height: 24px;
-  color: #000E14;
 }
 
 .bold {
@@ -60,7 +59,8 @@ p {
 }
 
 
-header {
+header,
+.weather-summary h2 {
   text-align: center;
 }
 
@@ -343,7 +343,7 @@ iframe {
 
 .weather-summary {
   font-weight: bold;
-  max-width: 300px;
+  max-width: 250px;
   margin: 20px auto;
   padding: 10px;
 }
