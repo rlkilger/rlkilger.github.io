@@ -1,7 +1,6 @@
 body {
   font-family: 'Cairo', sans-serif;
   color: #262737;
-  background-color: #eee;
   max-width: 100%;
 }
 
@@ -94,7 +93,7 @@ nav li {
 
 nav a, .footer-list a {
   display: block;
-  color: #eee;
+  color: white;
 }
 
 a:hover {
@@ -217,7 +216,7 @@ textarea {
 button,
 .button a {
   background-color: #004664;
-  color: #EEE;
+  color: white;
   border: none;
   padding: 10px 15px;
 }
@@ -225,7 +224,7 @@ button,
 button:hover,
 .button a:hover {
   background-color: #44869C;
-  color: #EEE;
+  color: white;
 }
 
 
@@ -323,6 +322,8 @@ iframe {
 }
 
 
+
+
 .home-section p {
   max-width: 600px;
   margin: 0 auto;
@@ -330,15 +331,40 @@ iframe {
 
 .home-section img {
   display: block;
+  max-width: 100%;
   margin: 0 auto;
   padding: 30px 0;
+}
+
+.weather-summary {
+  font-weight: bold;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.weather {
+  padding: 20px 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.current-temp {
+  display: block;
+  color: #004664;
+  font-size: 26px;
+  text-align: right;
 }
 
 .home-card {
   box-shadow: 1px 1px 5px #7a7a7a;
   width: 200px;
   margin: 10px auto;
-  padding: 50px 40px;
+  padding: 50px 20px;
 }
 
 .home-card img {
@@ -368,7 +394,7 @@ footer {
 .footer-list {
   font-size: 14px;
   background-color: #004664;
-  color: #eee;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

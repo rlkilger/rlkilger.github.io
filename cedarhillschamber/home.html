@@ -14,6 +14,7 @@
   </head>
   <body>
     <header>
+      <div class="alert"></div>
       <div class="login"><a href="#">MEMBER LOGIN</a></div>
       <a href="home.html"><img class="header-logo" src="images/logo.png" alt="photo of chamber logo"></a>
     </header>
@@ -49,6 +50,49 @@
         </div>
         <img src="images/home-img.webp" alt="mountain photo">
       </div>
+      <section class="weather-summary">
+        <div class="weather">
+          <h3>Today</h3>
+          <div class="current-temp-div">
+            <span class="current-temp"><span id="temp"></span>&#176; F</span>
+          </div>
+          <div class="container">
+            <span>Currently:</span>
+            <span class="temps" id="currently"></span>
+          </div>
+          <div class="container">
+            <span>Humidity:</span>
+            <span class="temps"><span id="humidity"></span>%</span>
+          </div>
+        </div>      
+        <div class="weather">
+          <h3>3-day Forecast</h3>
+          <div class="container">
+            <span id="day1"></span>
+            <span><span id="day1-temp"></span>&#176;</span>
+          </div>
+          <div class="container">
+            <span id="day2"></span>
+            <span><span id="day2-temp"></span>&#176;</span>
+          </div>
+          <div class="container">
+            <span id="day3"></span>
+            <span><span id="day3-temp"></span>&#176;</span>
+          </div>
+        </div>
+        <div class="weather">
+          <h3>Upcoming Events</h3>
+          <div class="container">
+            <span>April 10th - Highfitness Class</span>
+          </div>
+          <div class="container">
+            <span>May 1st - Arbor Day Tree Sale</span>
+          </div>
+          <div class="container">
+            <span>June 1st-5th - Family Festival</span>
+          </div>
+        </div>
+      </section>
       <div class="home-cards">
         <div class="home-card">
           <a class="img-div" href="#" target="_blank">
@@ -97,5 +141,6 @@
       </ul>
     </footer>
     <script src="js/javascript.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>

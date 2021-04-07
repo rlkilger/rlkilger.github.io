@@ -90,19 +90,24 @@
     padding: 15px;
   }
 
-  .home-cards {
+  .weather-summary {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1000px;
-    margin: 50px auto;
+    box-shadow: 1px 1px 5px #7a7a7a;
+    max-width: 925px;
+    margin-top: 40px;
   }
 
-  .home-card {
-    width: 240px;
+  .weather {
+    width: 250px;
   }
 
+  .weather h3 {
+    text-align: center;
+  }
   
+
   footer {
     padding: 0;
   }
@@ -123,7 +128,7 @@
   .contact-div {
     display: flex;
     justify-content: space-around;
-    margin: 0 30px;
+    margin: 0 30px 20px;
   }
 
   .contact-list, .hours-list {

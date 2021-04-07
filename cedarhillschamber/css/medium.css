@@ -13,7 +13,7 @@
   
   nav {
     border-bottom: 6px solid #004664;
-    background-color: #EEE;
+    background-color: #FFFFFF;
     font-weight: bold;
     font-size: 16px;
   }
@@ -38,7 +38,7 @@
   }
 
   .active {
-    background-color: #EEE;
+    background-color: #FFFFFF;
   }
 
   .active a {
@@ -85,7 +85,18 @@
     padding-left: 50px;
   }
 
- 
+
+  .home-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+
+  .home-card {
+    width: 240px;
+  }
 
     
   .footer-list {
