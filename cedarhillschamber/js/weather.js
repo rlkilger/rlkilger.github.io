@@ -24,10 +24,33 @@ fetch(weatherapiURL)
       let day = date.getDay();
 
       let temp = Math.round(obj.temp.day);
-      console.log(temp);
 
       document.getElementById(`day${count}`).textContent = dayOfWeek[(day + count)];
       document.getElementById(`day${count}-temp`).textContent = temp;
       count++;
     }
+
+
+    if (jsObject.alerts != undefined) {
+      let alert = `${jsObject.alerts.event} - ${jsObject.alerts.start}-${jsObject.alerts.end} - ${jsObject.alerts.description}`;
+
+
+      let close_span = document.createElement("span");
+      close_span.setAttribute("class", `close`);
+      close_span.setAttribute("onclick", `this.parentElement.style.display="none";`);
+      close_span.innerHTML = "&times;";
+
+      let alert_span = document.createElement("span");
+      alert_span.innerHTML = `${alert}`;
+
+      let div = document.createElement("div");
+      div.setAttribute("class", `alert`);
+      div.innerHTML = `${close_span}${alert_span}`;
+
+      document.getElementById("alert-span").innerHTML = `${div}`;
+    }
+
   });
+
+
+  

@@ -28,6 +28,7 @@ h4 {
 a {
   text-decoration: none;
   color: #004664;
+  transition: 0.2s;
 }
 
 ul {
@@ -48,7 +49,6 @@ p {
 
 
 .login {
-  font-size: 16px;
   background-color: #004664;
   text-align: right;
   padding: 10px;
@@ -210,7 +210,7 @@ textarea {
 
 .button {
   text-align: center;
-  padding: 40px 0;
+  padding: 50px 0;
 }
 
 button,
@@ -328,6 +328,23 @@ iframe {
   font-size: 16px;
 }
 
+
+.alert {
+  background-color: #E9962B;
+  color: #262737;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: white;
+}
 
 .home-section p {
   max-width: 600px;
